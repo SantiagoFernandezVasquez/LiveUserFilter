@@ -1,6 +1,7 @@
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #e6e6e6;
+    background-color: #f0f0f0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,12 +28,13 @@ body {
 }
 .title b {
     color: white;
-    font-family: "EncodeSans-Bold";
+    font-family: "Montserrat", sans-serif;
     margin-right: 15px;
     font-size: 20px;
 }
 .title p {
     color: white;
+    font-family: "Montserrat", sans-serif;
 }
 .nav {
     margin-left: 20px;
@@ -47,6 +49,7 @@ body {
     font-size: 16px; 
     margin-left: 7px;
     background-color: #293d99;
+    font-family: "Montserrat", sans-serif;
 }
 .container2 {
     height: 400px;
@@ -60,35 +63,38 @@ body {
     flex-direction: row;
     height: 90px;
     padding-top: 19px;
+    padding-bottom: 19px;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.6s ease;
+}
+.persona1:hover {
+    background-color: #3a57db;
 }
 .image {
-    background-color: black;
     width: 70px;
     height: 70px;
     border-radius: 50%;
     margin-left: 25px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.image img {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
 }
 .info_persona {
     display: flex;
     flex-direction: column;
     margin-left: 20px;
-    padding-top: 9px;
+    padding-top: 20px;
+    gap: 15px;
+    font-family: "Roboto Condensed", sans-serif;
 }
-.persona2 {
-    display: flex;
-    flex-direction: row;
-    height: 90px;
-    padding-top: 19px;
+.country p {
+    margin: 0;
+    color: #555;
 }
-.persona3 {
-    display: flex;
-    flex-direction: row;
-    height: 90px;
-    padding-top: 19px;
-}
-.persona4 {
-    display: flex;
-    flex-direction: row;
-    height: 90px;
-    padding-top: 19px;  
-}   

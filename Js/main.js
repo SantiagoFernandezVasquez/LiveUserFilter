@@ -47,6 +47,7 @@ function filterUsers() {
         }
     });
 }
+
 document.getElementById('input__search').addEventListener('input', filterUsers);
 
 window.addEventListener('DOMContentLoaded', getAllPersonas);
